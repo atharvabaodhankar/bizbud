@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>BizBud</title>
+    <!-- https://www.wix.com/website-template/view/html/2958?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=8f78f3f1-d188-4869-bfa7-6e6e90489a41 -->
+    <!-- https://www.wix.com/demone2/bizbud -->
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo">
+                <h2>BizBud</h2>
+            </div>
+            <ul>
+                <div class="close">
+                    <div class="close-bar"></div>
+                    <div class="close-bar"></div>
+                </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="call-now-2">
+                    <a href="#" class="btn-main">Call Now</a>
+                </div>
+            </ul>
+            <div class="call-now">
+                <a href="#" class="btn-main">Call Now</a>
+            </div>
+            <div class="hamburger">
+                <div class="hambar"></div>
+                <div class="hambar"></div>
+                <div class="hambar"></div>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+
+    </section>
+    <section id="services">
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/79f75f2740.js" crossorigin="anonymous"></script>
+    <script>
+        var navbar = document.querySelector("nav");
+        var closebar = document.querySelector(".close");
+        var hamburger = document.querySelector(".hamburger");
+
+        window.addEventListener("scroll" , ()=>{
+
+            if(scrollY > 100){
+                navbar.classList.add("active");
+            }else{
+                navbar.classList.remove("active");
+            }
+
+        })
+        closebar.addEventListener("click" , ()=>{
+            navbar.classList.remove("active-bar");
+        })
+        hamburger.addEventListener("click" , ()=>{
+            navbar.classList.toggle("active-bar");
+        })
+    </script>
+</body>
+</html>
