@@ -23,6 +23,11 @@ h2{
 a{
     font-size: 1.6rem;
 }
+p{
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+    line-height: 2.5rem;
+}
 :root{
     --violet : #9E3FFD;
     --black : #16163F;
@@ -47,6 +52,7 @@ nav{
 }
 nav.active{
     border-bottom: 1px solid #16163f15;
+    background-color: #fff;
 }
 .nav ul{
     display: flex;
@@ -79,23 +85,6 @@ nav.active{
 .btn-main:hover{
     background-color: var(--black);
 }
-.close{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 6rem ;
-    width: 6rem;
-    position: relative;
-    cursor: pointer;
-    display: none;
-}
-.close-bar{
-    width: 3rem;
-    height: 3px;
-    position: absolute;
-    background-color: #16163F;
-}
 .hamburger{
     display: flex;
     align-items: center;
@@ -106,6 +95,7 @@ nav.active{
     position: relative;
     cursor: pointer;
     display: none;
+    z-index: 5;
 }
 .call-now-2{
     display: none;
@@ -115,6 +105,7 @@ nav.active{
     height: 3px;
     position: absolute;
     background-color: #16163F;
+    transition: all .5s ease;
 }
 .hambar:nth-child(1){
     top: 18px;
@@ -122,20 +113,44 @@ nav.active{
 .hambar:nth-child(3){
     bottom: 18px;
 }
-.close-bar:nth-child(1){
+nav.active-bar .hambar:nth-child(1){
     transform: rotate(45deg);
+    top: initial;
 }
-.close-bar:nth-child(2){
+nav.active-bar .hambar:nth-child(3){
     transform: rotate(-45deg);
+    bottom: initial;
+}
+nav.active-bar .hambar:nth-child(2){
+   opacity: 0;
 }
 /* Hero */
 #hero{
     display: flex;
-    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    height: calc(100vh - 8rem);
     background-image: url(https://static.wixstatic.com/media/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png/v1/fill/w_1864,h_1008,al_br,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 5rem 5rem;
+}
+.hero{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 600px;
+}
+.hero h1{
+    font-size: 9rem;
+}
+.hero p{
+    font-size: 2.2rem;
+    color: var(--black);
+    margin: 2rem 0;
+    line-height: 4rem;
 }
 /* Services */
 #services{

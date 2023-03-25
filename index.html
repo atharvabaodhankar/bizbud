@@ -17,10 +17,6 @@
                 <h2>BizBud</h2>
             </div>
             <ul>
-                <div class="close">
-                    <div class="close-bar"></div>
-                    <div class="close-bar"></div>
-                </div>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
@@ -42,7 +38,11 @@
         </div>
     </nav>
     <section id="hero">
-
+        <div class="hero">
+            <h1>The Power of Good Advice</h1>
+            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+            <a href="#" class="btn-main">Learn More</a>
+        </div>
     </section>
     <section id="services">
 
@@ -51,7 +51,6 @@
     <script src="https://kit.fontawesome.com/79f75f2740.js" crossorigin="anonymous"></script>
     <script>
         var navbar = document.querySelector("nav");
-        var closebar = document.querySelector(".close");
         var hamburger = document.querySelector(".hamburger");
 
         window.addEventListener("scroll" , ()=>{
@@ -62,9 +61,6 @@
                 navbar.classList.remove("active");
             }
 
-        })
-        closebar.addEventListener("click" , ()=>{
-            navbar.classList.remove("active-bar");
         })
         hamburger.addEventListener("click" , ()=>{
             navbar.classList.toggle("active-bar");
