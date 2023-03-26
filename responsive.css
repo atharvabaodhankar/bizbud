@@ -5,7 +5,15 @@
     
 }
 @media screen and (max-width:1100px) {
-    
+    .services-box img {
+        width: 100px;
+    }
+    .services-main {
+        width: 100%;
+    }
+    .services-box {
+        width: 170px;
+    }
 }
 @media screen and (max-width:1000px) {
     .hamburger{
@@ -53,7 +61,14 @@
     }
 }
 @media screen and (max-width:800px) {
-    
+    .services-main{
+        flex-direction: column;
+        width: 100%;
+    }
+    .services-box{
+        width: 350px;
+        margin: 3rem 0;
+    }
 }
 @media screen and (max-width:700px) {
     .hero{
@@ -75,6 +90,15 @@
     #hero {
         padding: 5rem 3rem;
     }
+    .services-box{
+        width: 250px;
+    }
+    .services-main{
+        margin-top: 0;
+    }
+    h1 {
+        font-size: 3rem;
+    }
 }
 @media screen and (max-width:400px) {
     .hero h1 {
@@ -82,6 +106,9 @@
     }
     .hero p{
         font-size: 2rem;
+    }
+    .services-box {
+        width: 80%;
     }
 }
 @media screen and (max-width:300px) {

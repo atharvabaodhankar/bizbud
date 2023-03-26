@@ -12,8 +12,8 @@ html{
     font-size: 62.5%;
 }
 h1{
-    font-size: 5rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+    font-weight: 600;
     font-family: 'Work Sans', sans-serif;
     color: var(--black);
 }
@@ -27,6 +27,10 @@ p{
     font-size: 1.6rem;
     margin: 1.5rem 0;
     line-height: 2.5rem;
+}
+.header-text-h{
+    font-size: 1.6rem;
+    color: var(--violet);
 }
 :root{
     --violet : #9E3FFD;
@@ -155,5 +159,46 @@ nav.active-bar .hambar:nth-child(2){
 /* Services */
 #services{
     display: flex;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+.services-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 4rem ;
+    padding: 0 3rem ;
+    text-align: center;
+}
+.services-header h1{
+    margin: 2rem 0;
+}
+.services-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem ;
+    width: 90%;
+}
+.services-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+.services-box img{
+    width: 130px;
+}
+.services-box h4{
+    font-size: 1.4rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
+.services-box p{
+    color: var(--black);
 }
