@@ -59,6 +59,9 @@
     .hero h1 {
         font-size: 7rem;
     }
+    .numbers-box h1 {
+        font-size: 5rem;
+    }
 }
 @media screen and (max-width:800px) {
     .services-main{
@@ -68,6 +71,15 @@
     .services-box{
         width: 350px;
         margin: 3rem 0;
+    }
+    .numbers {
+       flex-direction: column;
+    }
+    .numbers span{
+        margin: 2rem 0;
+    }
+    .numbers-box h1{
+        font-size: 7rem;
     }
 }
 @media screen and (max-width:700px) {
@@ -112,7 +124,9 @@
     }
 }
 @media screen and (max-width:300px) {
-    
+    .numbers-box h1 {
+        font-size: 5rem;
+    }
 }
 @media screen and (max-width:200px) {
     

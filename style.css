@@ -202,3 +202,52 @@ nav.active-bar .hambar:nth-child(2){
 .services-box p{
     color: var(--black);
 }
+/* Numbers */
+#numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 9rem 0;
+    background-color: var(--black);
+}
+.numbers-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2.5rem;
+}
+.numbers-header h1{
+    font-display: 4rem;
+    color: #fff;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 4rem;
+}
+.numbers span{
+    border-radius: 50%;
+    height: .6rem;
+    width: .6rem;
+    background-color: #fff;
+    margin: 0 2rem;
+}
+.numbers-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 1.5rem;
+}
+.numbers-box h1{
+    font-size: 8rem;
+    color: #fff;
+}
+.numbers-box p{
+    color: #fff;
+    margin-top: 0;
+}
