@@ -122,24 +122,28 @@
 
         </div>
     </section>
+    <section id="testimonials">
+        <div class="testimonials">
+            <h3>TESTIMONIALS</h3>
+            <h1>
+                “I'm a testimonial. Click to edit me and add text”</h1>
+            <div class="testi-company-name">
+                <h4 class="company-name">
+                    Gabriella Spring
+                </h4>
+                <p>Company name</p>
+            </div>
+            <div class="testi-options">
+                <span class="span-1"></span>
+                <span class="span-2"></span>
+                <span class="span-3"></span>
+            </div>
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/79f75f2740.js" crossorigin="anonymous"></script>
-    <script>
-        var navbar = document.querySelector("nav");
-        var hamburger = document.querySelector(".hamburger");
-
-        window.addEventListener("scroll" , ()=>{
-
-            if(scrollY > 100){
-                navbar.classList.add("active");
-            }else{
-                navbar.classList.remove("active");
-            }
-
-        })
-        hamburger.addEventListener("click" , ()=>{
-            navbar.classList.toggle("active-bar");
-        })
+    <script src="script.js">
+    
     </script>
 </body>
 </html>
