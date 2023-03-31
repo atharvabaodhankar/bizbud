@@ -57,6 +57,12 @@
     .about-desc {
         width: 90%;
     }
+    .clients {
+       flex-wrap: wrap;
+    }
+    .clients img{
+        margin: 2rem 1.5rem;
+    }
 }
 @media screen and (max-width:900px) {
     .hero h1 {

@@ -340,3 +340,34 @@ nav.active-bar .hambar:nth-child(2){
 .span-1.active , .span-2.active , .span-3.active{
     background-color: #fff;
 }
+/* Clients */
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--violet-lg);
+    padding: 5rem 0;
+}
+#clients h2{
+    font-size: 1.6rem;
+    color: var(--black);
+}
+#clients hr{
+    background-color: #fff;
+    width: 100%;
+    height: 1px;
+    margin: 3rem 0;
+    border: none;
+}
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 0 5rem 0;
+}
+.clients img{
+    width: 150px;
+}
