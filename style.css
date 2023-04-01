@@ -371,3 +371,109 @@ nav.active-bar .hambar:nth-child(2){
 .clients img{
     width: 150px;
 }
+/* Contact */
+#contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-image: url(imgs/contact.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem 0;
+}
+.contact-main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contact-main h2{
+    color: var(--violet);
+}
+.contact-main h1{
+    margin: 2rem 0;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem ;
+}
+.contact-icon i {
+    margin: 0 1rem ;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.form-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.form-box span{
+    font-size: 1.3rem;
+    color: #3e3e3ea1;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.form-box:nth-child(1){
+    width: 45%;
+}
+.form-box:nth-child(2){
+    width: 45%;
+}
+.form-box:nth-child(3){
+    width: 100%;
+}
+.form-box:nth-child(4){
+    width: 100%;
+}
+.contact-form form{
+    width: 100%;
+}
+.form-box input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--black);
+    outline: none;
+    transition: all .3s ease;
+    height: 60px;
+    font-size: 1.7rem;
+}
+.form-box input:hover{
+    border-bottom: 2px solid var(--violet);
+}
+.form-box input:focus{
+    border-bottom: 2px solid var(--violet);
+
+}
+.form-box textarea{
+    width: 100%;
+    border: none;
+}
+.form-box textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--black);
+    outline: none;
+    transition: all .3s ease;
+    height: 100px;
+}
+.form-box textarea:hover{
+    border-bottom: 2px solid var(--violet);
+}
+.form-box textarea:focus{
+    border-bottom: 2px solid var(--violet);
+}
+.contact-form a{
+    margin-top: 2rem;
+}
