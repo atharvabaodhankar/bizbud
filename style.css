@@ -340,6 +340,52 @@ nav.active-bar .hambar:nth-child(2){
 .span-1.active , .span-2.active , .span-3.active{
     background-color: #fff;
 }
+/* Works */
+#works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+.works-header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.works-header h1{
+    font-size: 2.5rem;
+}
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.works-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--violet);
+    border-radius: 1rem;
+    height: 300px;
+    width: 300px;
+    padding: 0 2rem;
+    text-align: center;
+    margin: 2rem 2rem;
+    cursor: pointer;
+}
+.works-box h2{
+    font-size: 2rem;
+    color: #fff;
+}
+.works-box p{
+    color: #fff;
+}
+
 /* Clients */
 #clients{
     display: flex;

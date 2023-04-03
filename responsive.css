@@ -144,6 +144,9 @@
         width: 100%;
         margin: 4rem 0;
     }
+    .works-box {
+        width: 70%;
+    }
 }
 @media screen and (max-width:600px) {
     
@@ -188,6 +191,9 @@
         width: 90%;
     }
     .contact-main{
+        width: 90%;
+    }
+    .works-box {
         width: 90%;
     }
 }
