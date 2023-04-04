@@ -10,6 +10,7 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 h1{
     font-size: 3.5rem;
@@ -281,6 +282,40 @@ nav.active-bar .hambar:nth-child(2){
     background-size: cover;
     background-position: left top ;
     background-attachment: fixed;
+}
+/* Growth */
+#growth{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6rem 0;
+}
+.growth{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 500px;
+}
+.growth-img{
+    background-image: url(https://static.wixstatic.com/media/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png/v1/fill/w_1864,h_1008,al_br,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 500px;
+    border-radius: 2rem;
+    margin-left: 3rem;
+    border: 1px solid #9e3ffda3;
+}
+.growth h2{
+    color: var(--violet);
+    font-size: 1.8rem;
+}
+.growth h1{
+    margin: 2rem 0;
+}
+.growth a{
+    margin-top: 3rem;
 }
 /* Testimonials */
 #testimonials{

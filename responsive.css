@@ -5,6 +5,11 @@
     .contact-form{
         width: 400px;
     }
+    .growth-img {
+        height: 430px;
+        width: 375px;
+    }
+    
 }
 @media screen and (max-width:1100px) {
     .services-box img {
@@ -67,6 +72,17 @@
     }
     .contact-form{
         width: 350px;
+    }
+    #growth{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .growth{
+        width: 90%;
+        margin-bottom: 5rem ;
+    }
+    .growth-img{
+        margin-left: 0;
     }
 }
 @media screen and (max-width:900px) {
@@ -167,6 +183,9 @@
     h1 {
         font-size: 3rem;
     }
+    .growth-img {
+        width: 80%;
+    }
 }
 @media screen and (max-width:400px) {
     .hero h1 {
@@ -194,6 +213,9 @@
         width: 90%;
     }
     .works-box {
+        width: 90%;
+    }
+    .growth-img {
         width: 90%;
     }
 }
